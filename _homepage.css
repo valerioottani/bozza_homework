@@ -44,6 +44,7 @@ body {
 
 #sidebar ul {
     list-style-type: none; /* Toglie i pallini della lista */
+    margin-top: 50px;
 }
 
 #sidebar ul li {
@@ -205,4 +206,27 @@ body {
 
 #player strong {
     color: #1DB954; /* Verde Spotify per il titolo della canzone */
+}
+
+/* Posizionamento del contenitore (se non ne hai già uno) */
+.nav-buttons {
+    float: right; /* Lo sposta a destra */
+    margin: 20px;
+}
+
+/* Stile del tasto Login */
+.btn-login-link {
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none; /* Toglie la sottolineatura del link */
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-login-link:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05); /* Si ingrandisce leggermente al passaggio del mouse */
 }

@@ -1,0 +1,116 @@
+/* Reset di base */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #121212; /* Sfondo scuro Spotify */
+    color: #ffffff;
+    height: 100%;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #727272;
+    background-color: #121212;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box; /* Importante per il padding */
+}
+
+.input-group input:focus {
+    border-color: #1DB954; /* Verde Spotify */
+    outline: none;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.options a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.options a:hover {
+    color: #1DB954;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-login:hover {
+    transform: scale(1.04);
+    background-color: #1ed760;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #282828;
+    margin: 30px 0;
+}
+
+.signup-text {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.signup-text a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
