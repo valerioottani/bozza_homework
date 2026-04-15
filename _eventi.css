@@ -87,3 +87,8 @@
     border-color: #ffffff;
     transform: scale(1.05);
 }
+
+#sidebar ul li a.active {
+    color: #1DB954 !important;
+    font-weight: bold !important;
+}

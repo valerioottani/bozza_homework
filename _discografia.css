@@ -56,3 +56,8 @@
     color: #b3b3b3;
     margin: 0;
 }
+
+#sidebar ul li a.active {
+    color: #1DB954 !important;
+    font-weight: bold !important;
+}

@@ -63,6 +63,11 @@ body {
     color: #ffffff; /* Diventa bianco quando ci passi sopra */
 }
 
+#sidebar ul li a.active {
+    color: #1DB954;
+    font-weight: bold; /* Opzionale: la rende anche più evidente */
+}
+
 /* ==========================================
    3. AREA PRINCIPALE (MAIN CONTENT)
    ========================================== */
