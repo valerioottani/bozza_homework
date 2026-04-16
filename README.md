@@ -41,4 +41,4 @@ Elementi XHTML utilizzati:
     Stilizzazione Tabelle: bordi arrotondati, contrasti cromatici (nero/verde Spotify) e padding ottimizzati.
 
 ✅ Validazione
-Tutti i file XHTML presenti nel progetto sono stati verificati tramite il W3C Markup Validator e risultano conformi allo standard XHTML 1.0 Strict
+Tutti i file XHTML presenti nel progetto sono stati verificati tramite il W3C Markup Validator e risultano conformi allo standard XHTML 1.0 Strict.
