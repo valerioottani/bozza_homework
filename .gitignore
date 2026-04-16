@@ -7,7 +7,7 @@ desktop.ini
 *.tmp
 /xampp/
 
-# File di configurazione degli editor (se usi VS Code)
+# File di configurazione degli editor se si viene usate vs-code
 .vscode/
 *.code-workspace
 
