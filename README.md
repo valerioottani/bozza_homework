@@ -1,3 +1,8 @@
+# Link delle repository:
+- https://github.com/valerioottani/LWEB-HOMEWORK1.git
+- https://github.com/Giogiogabbana/LWEB-HOMEWORK1.git
+
+
 # LWEB-Homework 1: Fan Page Luchè (Spotify Style)
 
 Questo progetto consiste nella realizzazione di una piattaforma web dedicata all'artista **Luchè**, progettata seguendo l'interfaccia utente e l'esperienza d'uso di **Spotify**. Il focus principale dell'elaborato è la corretta implementazione degli standard **XHTML 1.0 Strict** e la separazione dei contenuti dalla presentazione tramite **CSS**.
