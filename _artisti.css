@@ -13,8 +13,8 @@
 .artisti-grid {
     padding: 0 32px;
     display: flex;
-    flex-wrap: wrap; /* Permette agli artisti di andare a capo se lo schermo è piccolo */
-    gap: 24px;       /* Spazio tra le card */
+    flex-wrap: wrap; 
+    gap: 24px;       
 }
 
 /* Card dell'Artista */
@@ -23,31 +23,31 @@
     padding: 20px;
     width: 180px;
     border-radius: 8px;
-    text-align: center; /* Centra tutto il contenuto della card */
+    text-align: center; 
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
 
 .artista-card:hover {
-    background-color: #282828; /* Effetto evidenziato al passaggio del mouse */
+    background-color: #282828; 
 }
 
-/* Immagine Circolare (Il tocco Spotify) */
+
 .artista-card img {
     width: 140px;
     height: 140px;
-    border-radius: 50%; /* Trasforma l'immagine quadrata in un cerchio perfetto */
-    object-fit: cover;   /* Impedisce all'immagine di schiacciarsi */
+    border-radius: 50%; 
+    object-fit: cover;   
     margin-bottom: 16px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.5); /* Ombra per dare profondità */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5); 
     transition: transform 0.3s ease;
 }
 
 .artista-card:hover img {
-    transform: scale(1.04); /* Leggero zoom della foto quando passi sopra la card */
+    transform: scale(1.04); /
 }
 
-/* Testi della Card */
+
 .artista-card h3 {
     font-size: 16px;
     color: #ffffff;
@@ -59,19 +59,19 @@
 
 .artista-card p {
     font-size: 14px;
-    color: #b3b3b3; /* Grigio tipico di Spotify per i testi secondari */
+    color: #b3b3b3; 
     margin: 0;
 }
 
-/* --- REGOLE PER LA SIDEBAR (COPIA DI SICUREZZA) --- */
 
-/* Forza il colore verde sulla pagina attiva nel menu */
+
+
 #sidebar ul li a.active {
     color: #1DB954 !important;
     font-weight: bold !important;
 }
 
-/* Effetto hover per gli altri link della sidebar */
+
 #sidebar ul li a:hover {
     color: #ffffff;
 }
@@ -96,15 +96,15 @@
     transform: scale(1.05); 
 }   
 
-/* Stile specifico per le foto degli artisti */
+
 .artista-card img {
     width: 150px;           
     height: 150px;     
-    border-radius: 50%;     /* Il trucco che rende la foto tonda */
+    border-radius: 50%;     
     object-fit: cover;      
     margin-bottom: 15px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.5); /* Ombra per profondità */
-    transition: transform 0.3s ease; /* Rende lo zoom fluido */
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5); 
+    transition: transform 0.3s ease; 
 }
 
 .artista-card:hover img {
