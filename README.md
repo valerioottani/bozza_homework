@@ -35,7 +35,6 @@ Il progetto è suddiviso nelle seguenti sezioni navigabili:
 ## Componenti Visuali Avanzati
 * **Sidebar Fissa**: Menu laterale sempre visibile per una navigazione rapida.
 * **Effetti Hover**: Animazioni di zoom sulle immagini e transizioni di colore per migliorare l'interattività.
-* **Tipografia Spotify**: Utilizzo di font sans-serif (Segoe UI, Roboto, Helvetica) per un look moderno.
 
 ---
 *Progetto realizzato per l'esame di Linguaggi per il Web - Homework 1.*
